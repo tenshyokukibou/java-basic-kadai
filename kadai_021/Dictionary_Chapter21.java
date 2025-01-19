@@ -21,10 +21,10 @@ public void searchWords(String[] mapArray) {
 	 for (int i = 0; i < mapArray.length; i++) {
 		 String map2 = fruitMap.get(mapArray[i]);
 		 if (map2== null) {
-			 System.out.println(mapArray[i] +"は辞書に追加されていません");
+			 System.out.println(mapArray[i] +"は辞書に存在しません");
 			 
 		 }else {
-			 System.out.println(map2);
+			 System.out.println(mapArray[i] +"の意味は"+map2);
 		 }
 	 }
 }}
